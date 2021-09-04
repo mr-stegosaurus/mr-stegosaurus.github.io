@@ -10,17 +10,23 @@
       #exec-bio {
         background-color: lightgray;
       }
-      #set-orange {
-        background-color: orange
-      }
-      .set-azure {
-        background-color: azure
-      }
       .bio-box {
         border: 1px solid black;
       }
       .bio-box a {
         color: green;
+      }
+      .alert {
+          background: red;
+      }
+      #exec-bio.alert {
+          background: red;
+      }
+      .bio-box {
+          width: 75%;
+      }
+      .bio-box {
+          width: 50%;
       }
     </style>
   </head>
@@ -38,16 +44,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box alert">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div id="set-orange" class="bio-box set-azure">
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box set-azure">
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box set-azure">
+    <div class="bio-box alert">
       <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
