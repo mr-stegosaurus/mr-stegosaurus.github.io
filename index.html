@@ -32,6 +32,9 @@
         padding: 2%;
         width: 25%;
       }
+      .bio-box > a {
+          color: #c68bf9;
+      }
       .bio-box h3 {
           font-size: 1.5em;
       }
@@ -43,14 +46,7 @@
       }
       .bio-wrapper {
           font-size: 24px;
-      }
-      .bio-wrapper:after {
-          visibility: hidden;
-          display: block;
-          font-size: 0;
-          content: " ";
-          clear: both;
-          height: 0;
+          overflow: hidden;
       }
 
       /*SOCIAL STYLES*/
@@ -61,21 +57,30 @@
           height: 36px;
           width: 36px;
       }
+      .social-list {
+          list-style: none;
+          padding: 0;
+          text-align: center;
+      }
+      .social-list > li {
+          display: inline-block;
+      }
+
     </style>
   </head>
 
   <body>
   <div class="full-hero">
     <h1>I'm an h1</h1>
-    <ul>
+    <ul class="social-list">
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
     </ul>
   </div>
