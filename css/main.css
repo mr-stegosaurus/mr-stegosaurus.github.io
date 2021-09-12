@@ -144,7 +144,7 @@ h2 ~ p {
 }
 .footer-nav li {
   display: inline-block;
-  margin: 2em 1em 0;
+  margin: 2em 1em 1em;
 }
 .footer-nav a {
   color: #ccc;
